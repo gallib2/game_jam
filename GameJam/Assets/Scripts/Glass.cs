@@ -1,13 +1,18 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Glass : MonoBehaviour
 {
+    public static event Action OnClickRightGlass;
+
     public Transform[] target;
     public float speed;
 
     private int current;
+    public string winGlassType = "redGlass";
+    private int score = 0;
 
 
     // Update is called once per frame
@@ -27,6 +32,11 @@ public class Glass : MonoBehaviour
 
     void OnMouseDown()
     {
+        if(gameObject.tag == "redGlass")
+        {
+            OnClickRightGlass?.Invoke();
+            Debug.Log("Score: " + score);
+        }
         Destroy(gameObject);
     }
 

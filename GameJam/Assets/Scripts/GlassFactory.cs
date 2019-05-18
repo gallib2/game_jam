@@ -16,8 +16,9 @@ public class GlassFactory : MonoBehaviour
     void CreateGlass()
     {
         int index = Random.Range(0, 2);
+        // new Vector3(0.28f, 1f, -1.17f)
 
-        Instantiate(glassTypes[index], new Vector3(0.28f, 1f, -1.17f), Quaternion.identity);
+        Instantiate(glassTypes[index], transform , false);
     }
 
 }

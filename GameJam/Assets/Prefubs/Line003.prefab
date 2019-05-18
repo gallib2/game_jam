@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6487882968871810072}
   m_Layer: 0
   m_Name: Line003
-  m_TagString: Untagged
+  m_TagString: redGlass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6487882969031903480}
   m_LocalRotation: {x: 0.000000015454312, y: -0.7071068, z: 0.000000015454312, w: 0.7071068}
-  m_LocalPosition: {x: 1.26, y: 5.97, z: -7.32}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.1658601, y: 0.1658601, z: 0.1658601}
   m_Children: []
   m_Father: {fileID: 0}
@@ -126,4 +126,6 @@ MonoBehaviour:
   - {fileID: 7440642383533299816, guid: 8a7ecb11cbc0f424fad874a23c91fa73, type: 3}
   - {fileID: 440078149129837603, guid: 87ade63b416014a75a11981af5bda201, type: 3}
   - {fileID: 3976306558176555177, guid: 0783c6eaaec3f403aa1f838dce5b4678, type: 3}
+  - {fileID: 3976306558176555177, guid: f3d220f7ce89d450f8e913baa510679a, type: 3}
   speed: 3
+  winGlassType: redGlass

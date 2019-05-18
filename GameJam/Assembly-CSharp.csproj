@@ -60,8 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Score.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Glass.cs" />
     <Compile Include="Assets\Scripts\GlassFactory.cs" />
+    <Compile Include="Assets\Scripts\GlassManager.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/gallib/Documents/Shenkar/Semester_C/GameJam/game_jam/GameJam/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
