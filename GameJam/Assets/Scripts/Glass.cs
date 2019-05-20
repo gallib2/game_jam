@@ -32,7 +32,7 @@ public class Glass : MonoBehaviour
 
     void OnMouseDown()
     {
-        if(gameObject.tag == "redGlass")
+        if(gameObject.tag == winGlassType)
         {
             OnClickRightGlass?.Invoke();
             Debug.Log("Score: " + score);

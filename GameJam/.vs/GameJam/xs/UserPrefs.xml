@@ -4,7 +4,7 @@
       <File FileName="Assets/Scripts/Glass.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/GlassFactory.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/GameManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Score.cs" Line="1" Column="1" />
+      <File FileName="Assets/Score.cs" Line="15" Column="59" />
       <File FileName="../../../../Unity/nocturnal_snacktime/Nocturnal Snacktime/Assets/Scripts/GameNocturnalSnacktimeManager.cs" Line="1" Column="1" />
       <File FileName="../../../../Unity/nocturnal_snacktime/Nocturnal Snacktime/Assets/Scripts/PlayerMovement.cs" Line="241" Column="33" />
     </Files>
