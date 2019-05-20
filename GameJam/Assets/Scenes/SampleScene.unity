@@ -478,9 +478,9 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055666693}
-  m_Text: 'SCORE: 0'
+  m_Text: 'DRINKS REMAINING: 0'
   m_OffsetZ: 0
-  m_CharacterSize: 0.58
+  m_CharacterSize: 0.45
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0
@@ -555,6 +555,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6573d2db80c4c139d9ded9ea12762a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initial_score: 0
+  score: 0
 --- !u!1 &1143598806
 GameObject:
   m_ObjectHideFlags: 0
