@@ -6,6 +6,7 @@ using UnityEngine;
 public class Glass : MonoBehaviour
 {
     public static event Action OnClickRightGlass;
+    public static event Action OnGameOver;
 
     public Transform[] target;
     public float speed;
@@ -32,10 +33,14 @@ public class Glass : MonoBehaviour
 
     void OnMouseDown()
     {
-        if(gameObject.tag == "redGlass")
+        if(gameObject.tag == winGlassType)
         {
             OnClickRightGlass?.Invoke();
             Debug.Log("Score: " + score);
+        }
+        if(gameObject.tag == "glass")
+        {
+            OnGameOver?.Invoke();
         }
         Destroy(gameObject);
     }
