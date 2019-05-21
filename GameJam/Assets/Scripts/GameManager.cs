@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public Score score;
+    public GameObject gameOver;
+
+    private void Awake()
+    {
+        gameOver.SetActive(false);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +22,21 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnEnable()
+    {
+        Glass.OnGameOver += GameOver;
+    }
+
+    private void OnDisable()
+    {
+        Glass.OnGameOver -= GameOver;
+    }
+
+    void GameOver()
+    {
+        score.gameObject.SetActive(false);
+        gameOver.SetActive(true);
     }
 }

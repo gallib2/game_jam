@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DestroyGlass
   - redGlass
+  - glass
   layers:
   - Default
   - TransparentFX
