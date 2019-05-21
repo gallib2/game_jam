@@ -13,8 +13,6 @@ public class Glass : MonoBehaviour
 
     private int current;
     public string winGlassType = "redGlass";
-    private int score = 0;
-
 
     // Update is called once per frame
     void Update()
@@ -36,7 +34,6 @@ public class Glass : MonoBehaviour
         if(gameObject.tag == winGlassType)
         {
             OnClickRightGlass?.Invoke();
-            Debug.Log("Score: " + score);
         }
         if(gameObject.tag == "glass")
         {

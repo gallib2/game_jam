@@ -1,0 +1,4 @@
+#Tue May 21 21:28:30 IDT 2019
+base.0=/Users/gallib/Documents/Shenkar/Semester_C/GameJam/game_jam/GameJam/Temp/gradleOut/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex
