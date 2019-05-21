@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public Score score;
     public GameObject gameOver;
+    public GameObject levelSuccess;
 
     private void Awake()
     {
@@ -15,13 +16,16 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (score.score <= 0)
+        {
+            LevelSuccess();
+        }
     }
 
     private void OnEnable()
@@ -32,6 +36,12 @@ public class GameManager : MonoBehaviour
     private void OnDisable()
     {
         Glass.OnGameOver -= GameOver;
+    }
+
+    void LevelSuccess()
+    {
+        score.gameObject.SetActive(false);
+        levelSuccess.SetActive(true);
     }
 
     void GameOver()
