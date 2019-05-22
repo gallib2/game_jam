@@ -19,6 +19,7 @@ public class Glass : MonoBehaviour
     {
         if(transform.position != target[current].position)
         {
+            // use larp?
             Vector3 pos = Vector3.MoveTowards(transform.position, target[current].position, speed * Time.deltaTime);
             GetComponent<Rigidbody>().MovePosition(pos);
         }

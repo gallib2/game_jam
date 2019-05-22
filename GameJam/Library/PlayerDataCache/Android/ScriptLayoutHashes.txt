@@ -224,7 +224,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 9706681140f3d3eabd48a3d78d550bb2 Assembly-CSharp.dll:.Glass
 a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
-07038a946eb2a8b6f588bfcc331caa95 Assembly-CSharp.dll:.GameManager
+9f8ddc392cdbfa3ed497813f19c026a6 Assembly-CSharp.dll:.GameManager
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 a238a6527c32cfaf307f5fc9cdf7015a Assembly-CSharp.dll:.GlassFactory

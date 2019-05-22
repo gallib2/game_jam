@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/QuitGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/StartGame.cs">
     <Files>
-      <File FileName="Assets/Scripts/Glass.cs" Line="43" Column="23" />
-      <File FileName="Assets/Scripts/GlassFactory.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="12" Column="33" />
+      <File FileName="Assets/Scripts/Glass.cs" Line="27" Column="10" />
+      <File FileName="Assets/Scripts/GlassFactory.cs" Line="12" Column="47" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="5" Column="41" />
       <File FileName="../../../../Unity/nocturnal_snacktime/Nocturnal Snacktime/Assets/Scripts/GameNocturnalSnacktimeManager.cs" Line="72" Column="72" />
       <File FileName="../../../../Unity/nocturnal_snacktime/Nocturnal Snacktime/Assets/Scripts/PlayerMovement.cs" Line="241" Column="33" />
-      <File FileName="Assets/Scripts/Score.cs" Line="40" Column="6" />
-      <File FileName="Assets/GameOverButton.cs" Line="22" Column="74" />
-      <File FileName="Assets/QuitGame.cs" Line="21" Column="9" />
+      <File FileName="Assets/Scripts/Score.cs" Line="14" Column="40" />
+      <File FileName="Assets/StartGame.cs" Line="10" Column="77" />
+      <File FileName="Assets/Scripts/GameOverButton.cs" Line="22" Column="72" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
