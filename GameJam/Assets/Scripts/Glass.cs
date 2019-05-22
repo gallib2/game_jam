@@ -8,6 +8,7 @@ public class Glass : MonoBehaviour
     public static event Action OnClickRightGlass;
     public static event Action OnGameOver;
 
+    public GameObject pickupEffect;
     public Transform[] target;
     public float speed;
 
@@ -34,6 +35,7 @@ public class Glass : MonoBehaviour
     {
         if(gameObject.tag == winGlassType)
         {
+            Instantiate(pickupEffect, gameObject.transform.position, gameObject.transform.rotation);
             OnClickRightGlass?.Invoke();
         }
         if(gameObject.tag == "glass")

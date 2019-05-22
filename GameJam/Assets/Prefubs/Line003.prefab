@@ -121,6 +121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf91f9cb93d3f487c91e2b533f6a6b86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupEffect: {fileID: 1498545114174289165, guid: ef209b580571e433e9240010d150d075,
+    type: 3}
   target:
   - {fileID: 2937731397942811580, guid: a152fc10a47894222a173ef1ea178f18, type: 3}
   - {fileID: 857607617036963068, guid: 8a7ecb11cbc0f424fad874a23c91fa73, type: 3}
